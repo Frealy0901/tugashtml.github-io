@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(127, 236, 255);
+    color: rgb(29, 72, 109);
+    text-align: left;
+    padding: 1em;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    position: fixed;
+    z-index: 9999;
+  
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+section  {
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+    padding: 1em;
+    background-color: rgb(127, 236, 255);
+    color: rgb(29, 72, 109);
+}
+
+
+button {
+    display: inline-block;
+    background-color: rgb(29, 132, 148);
+    color: rgb(151, 151, 227);
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    margin: 2rem 0;
+}
+
+  

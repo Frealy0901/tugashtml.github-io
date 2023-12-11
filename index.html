@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="aldo" content="tugas tekom UKDW">
+    <meta name="keywords" content=" revaldo, Revaldo Hohary, Data diri aldo, Data dir">
+    <title>@aldo.hohary - 71231042 - Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color:rgb(174, 218, 244)"></body>
+</head>
+<body>
+    <header>
+    Selamat Datang di Data Diri Revaldo 
+    </header>
+    <section id="tentangsaya">
+    </section>
+    <section id="gambar">
+        <aside class="content"></aside>
+        <img src="aldo.jpg" alt="aldo" width="400px" >
+    </aside>
+    </section>
+    <section id="Data_diri">
+        <h1><a href ="file:///C:/Users/Asus/Documents/data%20diri/index.html">Revaldo Fransisco Hohary</a> </h1>
+        <h1><a href ="https://www.ukdw.ac.id/">Universitas Kristen Duta Wacana</a> </h1>
+        <h1><a href ="https://instagram.com/aldo.hohary?igshid=OGQ5ZDc2ODk2ZA==">@aldo.hohary</a></h1>
+        <h1><a href ="https://biakkab.go.id/">Biak, Papua.</a></h1>
+    </section>
+    <section id="keterampilan">
+        <h3>keterampilan :</h3>
+        
+            <li>css</li>
+            <li>html</li>
+            <li>javascript</li>
+            <li>C</li>
+            <li>Python</li>
+        
+    </section>
+    <section>
+    <button id="tombolGantiWarna">ganti warna </button>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>Kontak Saya: 082397608495</p>
+            <p>Email: 71231042@students.ukdw.ac.id</p>
+            <p>Alamat: Jl. Dr.Wahyudin</p>
+        </div>
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ['#87CEEB', '#ADD8E6','#4682B4'];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById("tombolGantiWarna");
+        tombolGantiWarna.addEventListener("click",gantiWarnaRandom);
+    </script>
+
+</body>
+</html>
